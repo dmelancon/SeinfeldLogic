@@ -1,6 +1,6 @@
 import sys
 import random
-text = open('untitled.html')
+text = open('untitled.html')  # source code for "http://www.expss.com/Seinfeld/SeinfeldEpisodes.htm"
 words = list()
 plot = list()
 sentence =dict()
