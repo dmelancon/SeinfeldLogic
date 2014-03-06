@@ -22,7 +22,7 @@ for i in range(73,1452):
 					l = l-"."
 				if l != "" and l != "." and l != " ":	
 					plot.append(l)
-#put each line of the episdoe description into a library
+#put each line of the episdoe description into a dictionary
 for line in plot:
 	sentence[str(x)] = line
 	x+=1
